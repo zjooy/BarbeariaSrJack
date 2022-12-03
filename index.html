@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- light box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="shortcut icon" href="./img/logo.pdf.png" type="image/x-icon">
+    <title>Barbearia Sr Jack</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="#home" class="logo">
+
+                        <img src="./img/logo.pdf.png" alt="logo">
+                        <!-- <span>Stars events</span> -->
+                    </a>
+                    <ul class="navbar open">
+                        <a class="btnMenu"><i class='bx bx-menu'></i></a>
+
+                        <li><a href="#home">PÁGINA HOME</a></li>
+                        <li><a href="#sobre-nos">SOBRE NÓS</a></li>
+                        <li><a href="#servicos">SERVIÇOS</a></li>
+                        <li><a href="#galeria">GALERIA</a></li>
+                        <li><a href="#agenda">AGENDA</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                        <li><i class='bx bxl-instagram-alt'></i></li>
+                        <li><i class='bx bxl-facebook-circle'></i></li>
+                        <li><i class='bx bxl-whatsapp'></i></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="homeC">
+                    <video id="video" src="video/Homens.mp4" muted></video>
+                    <div class="homeI">
+                        <div class="caixaTexto">
+                            <h1>HORÁRIO DE <span>ATENDIMENTO</span></h1>
+                            <div class="horario">
+                                <h3>SEG Á SEX</h3>
+                                <span>10H ATÉ 21H</span>
+                                <h3>SÁBADO</h3>
+                                <span>9H ATÉ 18H</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sobre-nos">
+                <div class="aboutC">
+                    <div class="aboutT">
+                        <h1 class="title">SOBRE NÓS</h1>
+                        <h1 class="history">"I realized that the weapons I have to make the world a little better are
+                            music and the
+                            festival. It's what I know how to do well.”</h1>
+                    </div>
+
+                    <div class="aboutI">
+                        <img src="./img/sobre-nos.png" alt="dono">
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicos">
+                <div class="servicesC">
+                    <h1 class="title">SERVIÇOS</h1>
+                    <img src="./img/CORTES.png" class="img-thumbnail d-flex m-auto" alt="..." data-aos="fade-up">
+                    <img src="./img/barba.png" class="img-thumbnail d-flex m-auto" alt="..." data-aos="fade-up">
+                    <img src="./img/COMBOS.png" class="img-thumbnail d-flex m-auto" alt="..." data-aos="fade-up">
+                    <div class="servicesB"><button class="btnDefault" data-aos="fade-up"><i
+                                class='bx bxl-whatsapp'></i>AGENDAR</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="galeria">
+                <h3>insta @barbeariasenhorjack</h3>
+                <h1>FOTOS</h1>
+                <div class="carousel">
+                    <div class="carouselInner">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/imgTratada/img1.png" alt="show" class="imgFit">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./img/imgTratada/img2.png" alt="show" class="imgFit">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./img/imgTratada/img3.png" alt="show" class="imgFit">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./img/imgTratada/img4.png" alt="show" class="imgFit">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./img/imgTratada/img5.png" alt="show" class="imgFit">
+                                </div>                               
+
+                                <div class="swiper-slide">
+                                    <img src="./img/imgTratada/img7.png" alt="show" class="imgFit">
+                                </div> 
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="btn"><button class="btnDefault">View more</button></div>
+
+                    </div>
+
+            </section>
+
+            <section id="agenda">
+                <div class="titulo">
+                    <h1>AGENDE SEU HORÁRIO</h1>
+                </div>
+                <div class="agendaC">
+                    <div class="agendaT">
+                        <div class="swiper aboutInner aboutC">
+                            <div class="swiper-wrapper">
+                                <!-- card1 -->
+                                <div class="card swiper-slide">
+                                    <ul>
+                                        <!-- <li><img src="img/perfil.PNG" alt="perfil1"></li> -->
+                                        <li class="cardTitulo">
+                                            <h4>"Excelente. Os profissionais são ótimos."</h4>
+                                        </li>
+                                        <li class="cardStars">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </li>
+                                        <li class="cardCargo">
+                                            <h4>-Rogerio G</h4>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- card2 -->
+                                <div class="card swiper-slide">
+                                    <ul>
+                                        <!-- <li><img src="img/perfil.PNG" alt="perfil1"></li> -->
+                                        <li class="cardTitulo">
+                                            <h4>"Pessoal muito gente boa, serviço de excelente qualidade e preço justo."</h4>
+                                        </li>
+                                        <li class="cardStars">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </li>
+                                        <li class="cardCargo">
+                                            <h4>-Matheus C.</h4>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <!-- controles -->
+                            <div class="swiper-button-next myNext"></div>
+                            <div class="swiper-button-prev myPrev"></div>
+                            <div class="swiper-pagination myPage"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="agendaI">
+                        <a href="https://www.trinks.com/barbearia-senhor-jack" target="_blank"><img
+                                src="./img/agenda2.png" alt="dono"></a>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="contato">
+                <div class="contactC">
+                    <h1>CONTATO</h1>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <ul class="contactI">
+                            <li><input type="text" name="name" placeholder="Nome:" autocomplete="off" required></li>
+                            <li><input type="email" name="email" placeholder="Email:" autocomplete="off" required></li>
+                            <li>
+                                <textarea name="message" placeholder="Mensagem:" cols="30" rows="10" required></textarea>
+                            </li>
+                            <li class="formBtn">
+                                <input type="submit" class="btnDefault" value="Submit">
+
+                                <input type="reset" class="btnDefault" value="Cancel">
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>DESEJO RECEBER PROMOÇÕES NO MEU EMAIL</span>
+                            </li>
+                            </ul>
+                            <!-- chave de acesso obtida no site -->
+                            <input type="hidden" name="accessKey" value="19361229-4eea-4e88-9692-e4ba757756a1">
+                            <!-- pagina de redirecionamento -->
+                            <input type="hidden" name="redirectTo"value="https://barbearia-senhor-jack.netlify.app/thanks.html">
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <div class="footerC">
+                <div class="redesC">
+                    <a href="#home" class="logo">
+                        <!-- <i class='bx bxs-invader'></i> -->
+                        <span>Barbearia Sr. Jack</span>
+                    </a>
+                </div>
+                <div class="redesS">
+                    <ul>
+                        <li>
+                            <i class='bx bxl-instagram-alt'></i></li>
+                        <li><i class='bx bxl-facebook-circle'></i></li>
+                        <li><i class='bx bxl-whatsapp'></i></li>
+                    </ul>
+                </div>
+                <div class="menuC">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#sobre-nos">sobre nós</a></li>
+                        <li><a href="#servicos">serviços</a></li>
+                        <li><a href="#galeria">galeria</a></li>
+                        <li><a href="#agenda">agenda</a></li>
+                        <li><a href="#contato">contato</a></li>
+                    </ul>
+                </div>
+                                               
+            </div>
+        </footer>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- isotope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- script local -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
